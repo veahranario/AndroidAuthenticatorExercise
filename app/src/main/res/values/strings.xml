@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">Authenticator</string>
+
+  <!-- Splash Activity -->
+  <string name="splash_f">f</string>
+</resources>
