@@ -1,6 +1,7 @@
 <resources>
-  <string name="app_name">Authenticator</string>
-
-  <!-- Splash Activity -->
-  <string name="splash_f">f</string>
+    <string name="app_name">Facebook</string>
+    <string name="usernameEdit">Email or Phone</string>
+    <string name="passwordEdit">Password</string>
+    <string name="signInText">Sign Up for Facebook</string>
+    <string name="forgotPassText"><u>Forgot Password?</u></string>
 </resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.devpartnerssoftware.myapplication.WelcomeActivity">
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Welcome to facebook!"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="parent"-->
+        <!--android:layout_marginStart="120dp"-->
+        <!--android:layout_marginEnd="120dp"-->
+        <!--android:layout_marginTop="60dp"/>-->
+
+    <!--<ImageButton-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:src="@drawable/ic_camera_alt_black_24dp"-->
+        <!--tools:layout_editor_absoluteX="0dp"-->
+        <!--tools:layout_editor_absoluteY="0dp" />-->
+
+   <Button
+       android:id="@+id/logoutButton"
+       android:layout_width="80dp"
+       android:layout_height="40dp"
+       android:text="Logout"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       android:layout_marginEnd="5dp"
+       android:textSize="10sp"/>
+
+
+</android.support.constraint.ConstraintLayout>
